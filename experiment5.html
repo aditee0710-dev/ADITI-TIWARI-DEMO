@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+</head>
+<body>
+  <h1 align="center">Studen Registration Form</h1>
+  <hr>
+  <form method="post" action="sumbit.html">
+    <p>
+      <label>FULL NAME:</label>
+      <input type="text" name="fullname" placeholder="Enter your fill name"></input>
+    </p>
+    <p>
+      <label>EMAIL</label>
+      <input type="email" name="email" placeholder="Enter your full name"></input>
+    </p>
+    <p>
+      <label>Password:</label>
+      <input type="password" name="password" placeholder="Enter your password"></input>
+    </p>
+    <p>
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male"></input>male
+      <input type="radio" name="gender" value="female"></input>female
+    </p>
+    <p>
+      <label for="course">Select Course:</label><br>
+        <select id="course" name="course" required>
+            <option value="">Select a course</option>
+            <option value="bca">BCA</option>
+            <option value="bba">BBA</option>
+            <option value="bcom">B.Com</option>
+            <option value="bsc">B.Sc</option>
+        </select>
+    </p>
+    <br>
+    <p>
+      <label>CONTACT NUMBER</label>
+      <input type="tel" name="contact" placeholder="Enter Phone Number"></input>
+    </p>
+    <p>
+       <label>ADDRESS:</label>
+       <textarea name="address" rows="4" cols="40" placeholder="Enter your address"></textarea>
+    </p>
+    <p>
+       <input type="button" value="submit"></input>
+       <input type="button" value="clear"></input>
+    </p>
+  </form>
+  <hr>
+  <p align="center">&copy; 2025 Student Registration Portal</p>
+</body>
+</html>
