@@ -1,0 +1,24 @@
+  #box1{
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+            color: green;
+            font-size: large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    #box2{
+                border: 2px solid black;
+                padding: 10px;
+                margin: 10px;
+                color: blue;
+                font-size: large;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+    #box3{
+                border: 2px solid black;
+                padding: 10px;
+                margin: 10px;
+                color: red;
+                font-size: large;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
