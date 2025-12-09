@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment 9</title>
+    <style>
+        
+        body {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+          background-color: #f5f5f5;
+        }
+        .ok {
+          max-width: 1200px;
+          margin: auto;
+        }
+        h2 {
+          text-align: center;
+          margin-bottom: 30px;
+          color: #333;
+        }
+        .main {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr); 
+          gap: 20px;
+        }
+        .card1 {
+          background-color: #fff;
+          padding: 16px;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+          text-align: center;
+        }
+        .card1:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        .dark {
+          font-weight: bold;
+          font-size: 18px;
+          margin-bottom: 8px;
+        }
+        strong {
+          display: block;
+          margin-top: 10px;
+          font-size: 16px;
+        }
+        @media (max-width: 1024px) {
+          .main {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+        @media (max-width: 600px) {
+          .main {
+            grid-template-columns: 1fr;
+          }
+        }
+        .main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+    </style>
+</head>
+<body>
+    <div class="ok">
+        <h2>Responsive Product Grid</h2>
+        <div class="main">
+            <div class="card1">
+                <img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-witb-mistblue-202509_FMT_WHH?wid=560&hei=744&fmt=jpeg&qlt=90&.v=RytzQ3l2K3MwWlljNTFnS0FXWDNKU3Q5YmVVdDM2eXlicVhGRnBnOSt0dE81L0gyY2VqQ0FHMEx3Sk5hMitHeVNWN3VTcWRqYmxqTDFzMHBIY3BERE44SW51UkZoYW4zU2pkNklDc085MzVSajAzMnJFVW9scFVpS2g1TkdDUGs" alt="Product 1"width="150" height="150" style="object-fit:cover;">
+                <p class="dark">Product 1</p>
+                <p>High quality item with great features</p>
+                <strong>&#8377;499</strong>
+            </div>
+            <div class="card1">
+               <img src="https://hips.hearstapps.com/hmg-prod/images/best-smartwatches-673c8a73c3455.jpg?crop=0.502xw:1.00xh;0.251xw,0&resize=640:*" alt="Product 2"width="150" height="150" style="object-fit:cover;">
+                <p class="dark">Product 2</p>
+                <p>Durable and stylish for daily use</p>
+                <strong>&#8377;799</strong>
+            </div>
+            <div class="card1">
+                <img src="https://sale.circuitpoint.in/oc-content/uploads/1/243.jpg" alt="Product 3" width="150" height="150" style="object-fit:cover;">
+                <p class="dark">Product 3</p>
+                <p>Lightweight and comfortable</p>
+                <strong>&#8377;1,299</strong>
+            </div>
+            <div class="card1">
+                <img src="https://www.jiomart.com/images/product/original/rv5fhr7ftp/oshee-store-airbuds-pro-bluetooth-wireless-earphones-with-touchstone-charging-case-tws-earbuds-earphones-product-images-orv5fhr7ftp-p600365586-0-202304132340.jpg?im=Resize=(420,420)" alt="Product 4" width="150" height="150" style="object-fit:cover;">
+                <p class="dark">Product 4</p>
+                <p>Trending design with premium quality</p>
+                <strong>&#8377;999</strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
